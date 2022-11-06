@@ -14,7 +14,7 @@ Pre-requisites
 
 ## Demo
 
-![FoodandMedicine](https://stalwart-bublanina-2c40c5.netlify.app/)
+![FoodandMedicine]([https://github.com/hemu33662/hackmantra/blob/main/Hackmantra.mp4])
 
 
 ## Features
