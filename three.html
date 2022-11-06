@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8">
+<style>
+  body{
+    background-color: #E6E6FA;
+  }
+</style>
+	
+	
+</head>
+
+<body>
+
+<h2>Nessesary</h2>
+                    
+
+
+<form>
+  <div class="form-group col-md-4">
+    <label for="inputState">Supplies need</label>
+    <select class="form-control" id="inputState">
+                        <option value="Select">select</option>
+                        <option value="food">Food</option>
+                        <option value="medicine">Medicines</option>
+                       
+                      </select>
+  </div>
+
+<button onclick="getLocation()">Share Location</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+					
+<div class="form-row">
+<input type="text" name="street" class="street" id="street" placeholder="Please specify(if any)"  required>
+</div>		
+<div class="form-row-last">
+<input type="submit" name="Submit" class="Submit" value="SUBMIT">
+</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
