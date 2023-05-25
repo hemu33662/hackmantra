@@ -35,5 +35,3 @@ Pre-requisites
 ## Authors
 
 - [@hemu33662](https://github.com/hemu33662)
-- [@bmanoj19](https://github.com/bmanoj19)
-- [@taramattapoornapramod]([https://github.com/tpramod24](https://github.com/taramattapoornapramod))
